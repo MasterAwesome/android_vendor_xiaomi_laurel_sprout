@@ -10,6 +10,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/laurel_sprout/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/laurel_sprout/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -193,36 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ATT/ATT_profile5.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ATT/ATT_profile6.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile15.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile16.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile17.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile18.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile19.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile20.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile21.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile32.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile6.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/ROW/ROW_profile7.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/system_ext/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/laurel_sprout/proprietary/system_ext/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
