@@ -135,3 +135,10 @@ dex_import {
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
+dex_import {
+	name: "qti-telephony-common",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
